@@ -247,11 +247,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="mirror.c" />
+    <ClCompile Include="mirror_dev.c" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\dokan\dokan.vcxproj">
       <Project>{f25ba22f-2ab8-4859-9b89-8fe1e774b472}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mirror_dev.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
